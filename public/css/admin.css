@@ -1,0 +1,16 @@
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 28px;
+    color: #f8f8f2;
+    background-color: #6272a4;
+}
+
+button:disabled {
+    filter: brightness(0.5)
+}
+
+#ignition-btn {
+    background-color: #ff5555;
+}

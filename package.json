@@ -1,0 +1,30 @@
+{
+  "name": "grapher",
+  "version": "1.0.0",
+  "description": "The graph engine for Laikata mission broadcasting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laikata/grapher.git"
+  },
+  "keywords": [
+    "graph",
+    "laikata",
+    "web"
+  ],
+  "author": "Laikata team",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Laikata/grapher/issues"
+  },
+  "homepage": "https://github.com/Laikata/grapher#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.1"
+  }
+}
